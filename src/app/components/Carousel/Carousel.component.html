@@ -1,0 +1,12 @@
+<section class="carousel-wrapper" [ngStyle]="carouselWrapperStyle">
+  <ul class="carousel-inner" #carousel>
+    <li *ngFor="let item of items;" class="carousel-item">
+      {{item.title}}
+      <img class="beer-image" alt="Angular Logo" src="../assets/Images/ThumbsUpBeer.jpg">
+    </li>
+  </ul>
+  <div *ngIf="showControls">
+    <button (click)="prev()">Previous</button>
+    <button (click)="next()">Next</button>
+  </div>
+</section>

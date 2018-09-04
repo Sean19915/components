@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  font-size: 36px;
+}
+.main-toolbar {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-button {
+  background-color: transparent;
+  border: none;
+}
